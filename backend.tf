@@ -1,6 +1,6 @@
 terraform {
   backend "s3" { 
-    bucket = "kubernets-cicd"
+    bucket = "eks-cicd-project"
     key    = "statefile/terraform.tfstate" 
     region = "us-east-1"
     
